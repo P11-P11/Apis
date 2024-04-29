@@ -1,0 +1,21 @@
+● 3 puntos. Proveer un mecanismo para agregar, modificar, borrar y listar repartidores, así como consultar los datos de un repartidor en particular. 
+Cada repartidor tiene: nombre, apellido, CUIL, edad.
+○ Se quiere poder filtrar repartidores por edad. 
+Por ejemplo en un request poder obtener todos los repartidores que tienen 41 años.
+○ 1 pt agregar + 1 pt modificar + 1 pt borrar
+○ 1 pt filtrado por edad
+● 3 puntos. Asimismo, cada repartidor tiene distintos vehículos que son propios. 
+Por ejemplo, un repartidor puede tener una bicicleta y una moto. 
+Se quiere poder también agregar, modificar, listar estos vehículos.
+ Para cada vehículo tenemos: su tipo (e.g. bici, moto, auto).
+○ 1 pt agregar + 1 pt modificar
+○ 1 pt modelado con herencia
+○ Los autos y motos tendrán un campo patente que es obligatorio. 
+○ Las bicis no tienen un campo patente, pero tienen un campo rodado 
+(por ej: rodado 29, rodado 26) que es obligatorio sólo para bicis.
+● 2 puntos. Un pedido tendrá un repartidor asignado.
+ Se debe poder actualizar quién es el repartidor asignado a un pedido, así como borrar la 
+asignación (es decir, dejar el pedido sin repartidor asociado).
+○ 1 pt agregar + 1 pt borrar
+● 1 punto. Si alcanza nivel 3 Richardson mediante el uso adecuado de hipervínculos
+● 1 punto. Prolijidad, documentación, descripciones en los atributos y operaciones
